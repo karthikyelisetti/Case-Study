@@ -23,7 +23,9 @@ body{
 }
 
 #navbarNav {
-  margin: 15px 45px;
+  background-color: #e0b6b6;
+  margin: 30px 30px;
+  padding: 12px;
 }
 
 .main-content {
@@ -35,19 +37,13 @@ body{
   justify-content: space-between;
 }
 
-.profile-img {
-  width: 420px;
-  height: 420px;
-  border: 6px solid brown;
-}
-
 h1,h2,h3,h4,h5,h6{
 	margin:0;	
-	font-family: 'Overlock', cursive;
+	font-family: 'Overlock', 'open sans';
 }
 
 .header-left img {
-  width: 100%;
+  width: 90%;
   border: 5px solid rgba(255, 255, 255, 0.68);
 }
 .header-right {
@@ -83,8 +79,13 @@ h1,h2,h3,h4,h5,h6{
   color: #000
 }
 .header-right h6 {
-  font-size: 1em;
+  font-size: 1.2em;
   color: #C7C7C7;
   margin-top: 0.8em;
   letter-spacing: 6px;
+}
+
+#about-me {  
+  padding: 0.75em 0;
+  font-family: montserrat;
 }
