@@ -119,6 +119,8 @@ h3.title {
 }
 
 h4.title {
+  display: flex;
+  flex-direction: column;
   margin-top: 3em;
   margin-bottom: 3em;
   margin-left: 3em;
@@ -126,8 +128,8 @@ h4.title {
   text-align: center;
   font-size: 1.75em;
   color: rgb(79, 78, 78);
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
   background: rgb(237, 237, 237);
   border-radius: .25em;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(22, 102, 94, 1);
@@ -141,9 +143,14 @@ h4.title {
 }
 
 /* About section */
+#quote-logo {
+  width: 2em;
+  height: 2em;
+  margin-left: 42%;
+  position: absolute;
+  margin-top: -1.2%;  
+}
 .about-left {
-  text-align: justify;
-  padding-right: 2em;
   color: rgb(79, 78, 78);
   font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
