@@ -17,7 +17,7 @@ body{
 .hdr-intro {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 2.4em;
+  margin-bottom: 1.5em;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -27,7 +27,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .header-left img {
-  width: 84%;
+  width: 80%;
   /* border: 5px solid rgba(255, 255, 255, 0.68); */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-top: 3em;
