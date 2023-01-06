@@ -153,6 +153,7 @@ h4.title {
 .about-left {
   color: rgb(79, 78, 78);
   font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 0.90em;
 }
 .about-right {
   padding-left: 2.4em;
