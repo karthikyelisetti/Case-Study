@@ -161,7 +161,7 @@ h4.title {
   font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #stats-text {
-  padding-top: 1.5em;
+  padding-top: 1em;
   font-size: 15px;
   color:rgb(98, 23, 142);
   font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva;
@@ -324,11 +324,11 @@ h4.title {
 .footer {
   color: #fff;
   font-size: 14px;
-  background: #000;
+  background: rgb(34, 34, 34);
   margin-top: 24em;
 }
 .copyright {
-  background: #000;
+  background: rgb(34, 34, 34);
   align-items: center;
   justify-content: center;
   text-align: center;
