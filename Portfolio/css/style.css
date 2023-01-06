@@ -27,11 +27,11 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .header-left img {
-  width: 80%;
+  width: 88%;
   /* border: 5px solid rgba(255, 255, 255, 0.68); */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-top: 3em;
-  margin-bottom: 3em;
+  margin-bottom: 1.8em;
 }
 .header-right {
   margin-top: 3em;
@@ -324,11 +324,11 @@ h4.title {
 .footer {
   color: #fff;
   font-size: 14px;
-  background: rgb(34, 34, 34);
+  background: rgb(30, 30, 30);
   margin-top: 24em;
 }
 .copyright {
-  background: rgb(34, 34, 34);
+  background: rgb(30, 30, 30);
   align-items: center;
   justify-content: center;
   text-align: center;
