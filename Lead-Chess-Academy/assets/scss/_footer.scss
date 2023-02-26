@@ -28,6 +28,7 @@
         font-family: $font-primary;
         color: lighten($default, 20);
       }
+
       margin-bottom: 30px;
     }
 
@@ -41,7 +42,8 @@
 
     .footer-links {
       margin-bottom: 30px;
-      ul{
+
+      ul {
         list-style: none;
         padding: 0;
         margin: 0;
@@ -55,9 +57,11 @@
 
         li {
           padding: 10px 0;
+
           &:first-child {
             padding-top: 0;
           }
+
           display: flex;
           align-items: center;
         }
@@ -67,6 +71,7 @@
           transition: 0.3s;
           display: inline-block;
           line-height: 1;
+
           &:hover {
             text-decoration: none;
             color: $primary;
@@ -117,6 +122,7 @@
         transition: 0.3s;
         border-radius: 50px;
         box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.10);
+
         &:hover {
           background: lighten($primary, 5);
         }
@@ -128,6 +134,7 @@
     padding-top: 5px;
     font-size: 13px;
     color: $default;
+
     a {
       transition: 0.3s;
     }
@@ -147,6 +154,7 @@
       width: 36px;
       height: 36px;
       transition: 0.3s;
+
       &:hover {
         background: $primary;
         color: #fff;

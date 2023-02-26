@@ -12,6 +12,7 @@ section {
 .section-title {
   text-align: center;
   padding-bottom: 30px;
+
   h2 {
     font-size: 32px;
     font-weight: bold;
@@ -57,7 +58,7 @@ section {
       line-height: 32px;
       font-size: 24px;
     }
-  
+
     ul {
 
       list-style: none;
@@ -67,6 +68,7 @@ section {
         padding: 10px 0 0 28px;
         position: relative;
       }
+
       i {
         left: 0;
         top: 7px;
@@ -88,6 +90,7 @@ section {
 --------------------------------------------------------------*/
 .why-us {
   padding-top: 0;
+
   .box {
     padding: 50px 30px;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.10);
@@ -119,7 +122,10 @@ section {
       background: $primary;
       padding: 30px 30px 70px 30px;
       box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
-      span, h4, p {
+
+      span,
+      h4,
+      p {
         color: $white;
       }
     }
@@ -205,24 +211,25 @@ section {
         position: absolute;
         top: 0;
         left: 0;
-        
+
         path {
           transition: 0.5s;
           fill: #f5f5f5;
         }
       }
-  
+
     }
 
     h4 {
       font-weight: 600;
       margin: 10px 0 15px 0;
       font-size: 22px;
+
       a {
         color: $secondary;
         transition: ease-in-out 0.3s;
       }
-  
+
     }
 
     p {
@@ -246,6 +253,7 @@ section {
       i {
         color: $white;
       }
+
       path {
         fill: #47aeff;
       }
@@ -261,6 +269,7 @@ section {
       i {
         color: $white;
       }
+
       path {
         fill: #ffa76e;
       }
@@ -276,6 +285,7 @@ section {
       i {
         color: $white;
       }
+
       path {
         fill: #e80368;
       }
@@ -291,6 +301,7 @@ section {
       i {
         color: $white;
       }
+
       path {
         fill: #11dbcf;
       }
@@ -305,6 +316,7 @@ section {
 .features {
 
   padding-top: 0;
+
   .icon-box {
     display: flex;
     align-items: center;
@@ -324,12 +336,14 @@ section {
       padding: 0;
       line-height: 1;
       font-size: 16px;
+
       a {
         color: $secondary;
         transition: ease-in-out 0.3s;
       }
-  
+
     }
+
     &:hover {
       h3 a {
         color: $primary;
@@ -348,10 +362,10 @@ section {
   }
 
   #portfolio-flters {
-    padding:0;
-    margin:0 auto 15px auto;
-    list-style:none;
-    text-align:center;
+    padding: 0;
+    margin: 0 auto 15px auto;
+    list-style: none;
+    text-align: center;
     border-radius: 50px;
     padding: 2px 15px;
 
@@ -367,7 +381,8 @@ section {
       margin-bottom: 10px;
       transition: all 0.3s ease-in-out;
 
-      &:hover, &.filter-active {
+      &:hover,
+      &.filter-active {
         color: $primary;
       }
 
@@ -382,7 +397,7 @@ section {
     position: relative;
     overflow: hidden;
     z-index: 1;
-    
+
     $portfolio_wrap_spacing: 30px;
 
     &::before {
@@ -398,7 +413,7 @@ section {
       opacity: 0;
     }
 
-    
+
     .portfolio-info {
       opacity: 0;
       position: absolute;
@@ -413,7 +428,7 @@ section {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      
+
       &::before {
         display: block;
         content: "";
@@ -455,7 +470,7 @@ section {
         padding: 0;
         margin: 0;
       }
-      
+
     }
 
     .portfolio-links {
@@ -497,9 +512,9 @@ section {
           bottom: 15px;
           right: 15px;
         }
-        
+
       }
-      
+
     }
   }
 }
@@ -515,6 +530,7 @@ section {
     img {
       width: 100%;
     }
+
     .swiper-pagination {
       margin-top: 20px;
       position: relative;
@@ -551,16 +567,16 @@ section {
       padding: 0;
       font-size: 15px;
 
-      li +li {
+      li+li {
         margin-top: 10px;
       }
     }
-    
+
   }
 
   .portfolio-description {
     padding-top: 30px;
-    
+
     h2 {
       font-size: 26px;
       font-weight: 700;
@@ -586,7 +602,7 @@ section {
     border-radius: 5px;
     background: $white;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.10);
-    
+
     .member-img {
       position: relative;
       overflow: hidden;
@@ -602,12 +618,14 @@ section {
       transition: ease-in-out 0.3s;
       text-align: center;
       background: rgba($white, 0.85);
+
       a {
         transition: color 0.3s;
         color: $secondary;
         margin: 0 10px;
         padding-top: 8px;
         display: inline-block;
+
         &:hover {
           color: $primary;
         }
@@ -622,13 +640,14 @@ section {
 
     .member-info {
       padding: 25px 15px;
+
       h4 {
         font-weight: 700;
         margin-bottom: 5px;
         font-size: 18px;
         color: $secondary;
       }
-  
+
       span {
         display: block;
         font-size: 13px;
@@ -708,11 +727,14 @@ section {
       font-size: 18px;
       padding-right: 4px;
     }
+
     .na {
       color: #ccc;
+
       i {
         color: #ccc;
       }
+
       span {
         text-decoration: line-through;
       }
@@ -731,6 +753,7 @@ section {
     font-family: $font-primary;
     transition: 0.3s;
     border: none;
+
     &:hover {
       background: $primary;
     }
@@ -739,10 +762,12 @@ section {
   .featured {
     z-index: 10;
     margin: -30px -5px 0 -5px;
+
     .btn-buy {
       background: $primary;
+
       &:hover {
-        background:lighten($primary, 5);
+        background: lighten($primary, 5);
       }
     }
   }
@@ -773,19 +798,19 @@ section {
 /*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/
-.faq  {
+.faq {
   padding: 60px 0;
 
   .faq-list {
     padding: 0;
     list-style: none;
-  
+
     li {
       border-bottom: 1px solid lighten($primary, 32);
       margin-bottom: 20px;
       padding-bottom: 20px;
     }
-  
+
     .question {
       display: block;
       position: relative;
@@ -798,35 +823,36 @@ section {
       color: darken($primary, 10);
       transition: 0.3s;
     }
-  
+
     i {
       font-size: 16px;
       position: absolute;
       left: 0;
       top: -2px;
     }
-  
+
     p {
       margin-bottom: 0;
       padding: 10px 0 0 25px;
     }
-  
+
     .icon-show {
       display: none;
     }
-  
-  
+
+
     .collapsed {
       color: black;
+
       &:hover {
         color: $primary;
       }
-  
+
       .icon-show {
         display: inline-block;
         transition: 0.6s;
       }
-  
+
       .icon-close {
         display: none;
         transition: 0.6s;
@@ -882,7 +908,7 @@ section {
       font-weight: 400;
       font-size: 13px;
     }
-    
+
     .error-message {
       display: none;
       color: #fff;
@@ -890,12 +916,13 @@ section {
       text-align: left;
       padding: 15px;
       font-weight: 600;
-      & br + br {
+
+      & br+br {
         margin-top: 25px;
       }
 
     }
-    
+
     .sent-message {
       display: none;
       color: #fff;
@@ -904,13 +931,13 @@ section {
       padding: 15px;
       font-weight: 600;
     }
-  
+
     .loading {
       display: none;
       background: #fff;
       text-align: center;
       padding: 15px;
-  
+
       &:before {
         content: "";
         display: inline-block;
@@ -922,14 +949,16 @@ section {
         border-top-color: #eee;
         animation: animate-loading 1s linear infinite;
       }
-  
+
     }
 
-    input, textarea {
+    input,
+    textarea {
       border-radius: 0;
       box-shadow: none;
       font-size: 14px;
       border-radius: 5px;
+
       &:focus {
         border-color: $primary;
       }
@@ -950,16 +979,22 @@ section {
       color: #fff;
       transition: 0.4s;
       border-radius: 50px;
+
       &:hover {
         background: lighten($primary, 5);
       }
     }
-  
+
   }
-  
+
   @keyframes animate-loading {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+    0% {
+      transform: rotate(0deg);
+    }
+
+    100% {
+      transform: rotate(360deg);
+    }
   }
 }
 
@@ -985,11 +1020,11 @@ section {
     padding: 0;
     margin: 0;
 
-    li + li {
+    li+li {
       padding-left: 10px;
     }
 
-    li + li::before {
+    li+li::before {
       display: inline-block;
       padding-right: 10px;
       color: lighten($secondary, 10);
@@ -999,17 +1034,19 @@ section {
 
   @media (max-width: 992px) {
     margin-top: 60px;
+
     .d-flex {
       display: block !important;
 
     }
-    
+
     ol {
       display: block;
+
       li {
         display: inline-block;
       }
-      
+
     }
   }
 }
