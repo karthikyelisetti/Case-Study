@@ -28673,3 +28673,7 @@ img.absolute_image {
     margin-bottom: 30px;
   }
 }
+
+#about-img {
+  background: url(../images/chess.jpg);
+}
