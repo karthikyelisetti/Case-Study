@@ -7654,7 +7654,7 @@ py-* - same value for top and for bottom padding
   }
 
   .s-pt-xl-60 > [class*="container"] {
-    padding-top: 60px;
+    padding-top: 0;
   }
 
   .s-pt-xl-65 > [class*="container"] {
@@ -8034,7 +8034,7 @@ py-* - same value for top and for bottom padding
   }
 
   .s-pb-xl-250 > [class*="container"] {
-    padding-bottom: 60px;
+    padding-bottom: 0;
   }
 
   .s-pb-xl-260 > [class*="container"] {
