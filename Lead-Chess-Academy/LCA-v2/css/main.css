@@ -422,12 +422,13 @@ a:hover > img {
   transform: scale(1.05);
 }
 
-hr {
+#divider-center {
   border-color: #dedfe0;
-  margin-bottom: 30px;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 30px;
+  margin: 30px auto;
+}
+
+ul {
+  list-style: none;
 }
 
 iframe {
@@ -8033,7 +8034,7 @@ py-* - same value for top and for bottom padding
   }
 
   .s-pb-xl-250 > [class*="container"] {
-    padding-bottom: 150px;
+    padding-bottom: 60px;
   }
 
   .s-pb-xl-260 > [class*="container"] {
