@@ -28552,7 +28552,7 @@ img.absolute_image {
 
 .why_lca {
   background: url(../images/image-1.jpg) no-repeat center/cover;
-  width: 100%;
+  width: 93%;
 }
 
 /* .hr {
@@ -28673,8 +28673,4 @@ img.absolute_image {
   .page_copyright .widget {
     margin-bottom: 30px;
   }
-}
-
-#about-img {
-  background: url(../images/chess.jpg);
 }
