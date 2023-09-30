@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+table, th, tr, td {
+    border: .5px solid black;
+    text-align: center;
+    background-color: azure;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+th {
+    background-color: rgb(150, 206, 245);
+}
+
+td img {
+    width: 120px;
+    padding: 15px;
+}
